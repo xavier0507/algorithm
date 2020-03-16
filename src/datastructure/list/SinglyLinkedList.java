@@ -1,6 +1,6 @@
 package datastructure.list;
 
-public class SinglyLinkedList<E> implements Cloneable {
+public class SinglyLinkedList<E> {
 
     private Node<E> head = null;
     private Node<E> tail = null;
@@ -105,7 +105,7 @@ public class SinglyLinkedList<E> implements Cloneable {
     }
 
     public static void main(String[] args) {
-        SinglyLinkedList<Integer> list = new SinglyLinkedList();
+        SinglyLinkedList<Integer> list = new SinglyLinkedList<>();
         list.addFirst(1);
         list.addFirst(2);
         list.addFirst(3);
