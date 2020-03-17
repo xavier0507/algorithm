@@ -1,7 +1,5 @@
 package datastructure.queue;
 
-import net.datastructures.CircularlyLinkedList;
-
 public class LinkedCircularQueue<E> implements CircularQueue<E> {
 
     private CircularlyLinkedList<E> circle = new CircularlyLinkedList<>();
